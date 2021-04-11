@@ -33,7 +33,11 @@ export default function MainScreen(props) {
       <HydratedSVG opacity={opacity} />
       <View style={styles.textContainer}>
         <StyledText
-          style={{ color: '#0094FF', fontSize: 90 }}
+          style={{
+            color: '#0094FF',
+            fontSize: 90,
+            opacity: Math.min((125 - opacity) / 100, 100),
+          }}
         >{`${opacity}%`}</StyledText>
       </View>
       <TouchableHighlight onPress={goToOptions} style={styles.optionsTouchable}>

@@ -2,4 +2,4 @@
 
 ## App idea:
 
-![App idea](https://github.com/dmbsk/HydratedApp/raw/master/docs/idea.png "App idea")
+![App idea](docs/idea.png "App idea")
